@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "test-kbs-poetry"
+version = "1"
+description = "I dont know"
+authors = ["muzammil-git <syedmuzammil67@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.8"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+certifi = "^2024.12.14"
+fastapi = "^0.115.6"
+sqlalchemy = "^2.0.37"
+pip = "^24.3.1"
+asyncpg = "^0.30.0"
+psycopg2-binary = "^2.9.10"
+greenlet = "^3.1.1"
+groq = "^0.18.0"
+requests = "^2.32.3"
+langchain = "^0.3.18"
+openai = "^1.63.0"
+langchain-openai = "^0.3.5"
+llama-index = "^0.12.19"
+llama-index-llms-deepseek = "^0.1.1"
+llama-index-llms-groq = "^0.3.1"
+llama-index-embeddings-huggingface = "^0.5.1"
+llama-index-vector-stores-chroma = "^0.4.1"
+llama-index-readers-web = "^0.3.5"
+gradio = "^5.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
