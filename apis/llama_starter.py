@@ -24,8 +24,8 @@ import shutil
 
 
 BASE_UPLOAD_DIR = os.path.abspath("tmp_files")
-
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 router2 = APIRouter()
 
 messages = [
