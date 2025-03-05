@@ -1,7 +1,14 @@
 # Converse: A Conversational AI Demo
 
 ## Introduction
-Converse is a conversational AI demo that showcases the capabilities of the DeepSeek R1 model, Hugging Face embeddings, and the LLaMA Index framework. This project is designed to demonstrate the potential of conversational AI in generating human-like responses to user input.
+Converse is a conversational AI demo that showcases the capabilities of the DeepSeek R1 model, Hugging Face embeddings, and the LLaMA Index framework. 
+
+## Client-Side
+![image](client.png)
+
+## Server-Side
+![image](server.png)
+
 
 ## Features
 * **Conversational Interface**: Engage in natural-sounding conversations with the AI model.
@@ -11,6 +18,7 @@ Converse is a conversational AI demo that showcases the capabilities of the Deep
 * **LLaMA Index Framework**: A framework for building and querying large language models.
 * **Chroma DB**: A vector store for efficient storage and retrieval of embeddings.
 * **Client-Side Interface**: Built using Gradio, a Python library for building user interfaces.
+
 
 ## Technologies Used
 * **DeepSeek R1 Model**: A conversational AI model developed by Groq.
@@ -36,15 +44,7 @@ Converse is a conversational AI demo that showcases the capabilities of the Deep
 
 ## Future Enhancements
 * **Improved Response Generation**: Enhance the AI model's ability to generate more accurate and informative responses.
+* **Client Side**: The human interaction part, markdown rendering.
 * **Emotional Intelligence**: Integrate emotional intelligence into the AI model to make it more empathetic and understanding.
 * **Multimodal Interaction**: Allow users to interact with the AI model using multiple modalities, such as voice or text.
 
-## License
-This project is licensed under the MIT License.
-
-## Acknowledgments
-* **Groq**: For developing the DeepSeek R1 model and providing the Groq API.
-* **Hugging Face**: For providing the Hugging Face embeddings library.
-* **LLaMA Index Framework**: For providing the LLaMA Index framework.
-* **Chroma DB**: For providing the Chroma DB vector store.
-* **Gradio**: For providing the Gradio library for building user interfaces.
