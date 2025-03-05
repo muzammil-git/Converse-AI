@@ -19,16 +19,6 @@ Converse is a conversational AI demo that showcases the capabilities of the Deep
 * **Chroma DB**: A vector store for efficient storage and retrieval of embeddings.
 * **Client-Side Interface**: Built using Gradio, a Python library for building user interfaces.
 
-
-## Technologies Used
-* **DeepSeek R1 Model**: A conversational AI model developed by Groq.
-* **Hugging Face Embeddings**: A library of pre-trained embeddings for natural language processing.
-* **Python**: The programming language used to develop the project.
-* **Groq API**: A cloud-based API for natural language processing.
-* **LLaMA Index Framework**: A framework for building and querying large language models.
-* **Chroma DB**: A vector store for efficient storage and retrieval of embeddings.
-* **Gradio**: A Python library for building user interfaces.
-
 ## Setup and Usage
 1. Clone the repository: `git clone https://github.com/your-username/converse.git`
 2. Install the required dependencies: `poetry install`
